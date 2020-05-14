@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: url('https://i.pinimg.com/originals/72/15/5a/72155aa7f3467a74dfa74d0296394d20.jpg');  
-    background-size: 1500px;
+    background-image: url('https://wallpaperplay.com/walls/full/1/7/b/243233.jpg');  
+    background-size: 1350px;
     font-family: verdana;
     height: 100vh;
     font-size: 12px;
@@ -46,6 +46,7 @@ header {
   
   .menu {
     background-color: black;
+    font-family: 'Press Start 2P', cursive;
     position:fixed;
     width: 100vw;
     top: 0;
@@ -62,17 +63,20 @@ header {
   
   .site-subtitle,
   .site-title{
-    text-align: center;
     color: white;
+    text-align: center;
   }
 
   .site-title{
-   font-size: 3em;
+   font-size: 2em;
+   font-family: 'Press Start 2P', cursive;
   }
 
   .site-subtitle{
     font-style: italic;
-    font-size: 2em;
+    font-size: 1.2em;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 3em;
   }
   
   .menu ul {
@@ -86,14 +90,39 @@ header {
   }
 
   .menu a {
-    background-color: red;
     display: block;
     padding: 10px 20px;
     background-color: white;
   }
 
+  .Hobbies h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-bottom:2em;
+    text-align: center;
+  }
+
+  section.Hobbies {
+    background-color: pink;
+    padding: 2em;
+}
+
+  .Hobbies .grid {
+   display: grid; 
+   gap: 2em;
+  }
+
+  .Hobbies figure{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 1em;
+  }
+
   .img-portfolio {
-    height: 400px;
-    width: 600px;
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
   }
   
