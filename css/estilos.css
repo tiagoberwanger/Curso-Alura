@@ -7,7 +7,6 @@
 body {
     background-image: url('https://wallpaperplay.com/walls/full/1/7/b/243233.jpg');  
     background-size: 1350px;
-    font-family: verdana;
     height: 100vh;
     font-size: 12px;
   }
@@ -87,19 +86,14 @@ header {
 
   .site-subtitle,
   .site-title{
-    color: pink;
+    color: white;
     text-align: center;
-  }
-
-  .site-title{
-   font-size: 3em;
-   font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', cursive;
   }
 
   .site-subtitle{
     font-style: italic;
     font-size: 1.2em;
-    font-family: 'Press Start 2P', cursive;
     line-height: 3em;
   }
   
@@ -117,17 +111,54 @@ header {
     display: block;
     padding: 10px 20px;
     background-color: white;
+    color: black;
   }
 
-  .Hobbies h2 {
+  .Sobre {
+    padding: 2em;
+    min-height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Hobbies {
+    padding: 2em;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Contato {
+    padding: 2em;
+    min-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Sobre h2 {
     font-family: 'Press Start 2P', cursive;
     color: black;
     margin-bottom:2em;
     text-align: center;
   }
 
+  .Sobre p {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    text-indent: 2em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+  }
+
+  .Hobbies h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-bottom:2em;
+    text-align: center;
+  }
+
   section.Hobbies {
-    background-color: white;
+    background-color: black;
     padding: 2em;
     min-height: 100vh;
 }
@@ -139,10 +170,10 @@ header {
 
   .Hobbies figure{
     font-family: 'Press Start 2P', cursive;
-    color: black;
+    color: white;
     margin-bottom: 1em;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.3em;
   }
 
   .img-portfolio {
@@ -159,13 +190,13 @@ header {
 
   .Contato h2 {
     font-family: 'Press Start 2P', cursive;
-    color: white;
+    color: black;
     margin-bottom:2em;
     text-align: center;
   }
 
   section.Contato {
-    background-color: black;
+    background-color: white;
     padding: 2em;
 }
   .Contato .icons {
@@ -173,7 +204,7 @@ header {
   }
 
   .Contato a {
-    color: white;
+    color: black;
     font-size: 3em;
   }
 
@@ -182,6 +213,8 @@ header {
     text-shadow: 0px 0px 10px whitesmoke;
   }
 
-
+  section.Sobre {
+    background-color: white;
+  }
 
 
