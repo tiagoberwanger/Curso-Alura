@@ -36,7 +36,6 @@ body {
   }
  }
  
-
 header {
   height: 100vh;
   display: flex;
@@ -45,14 +44,25 @@ header {
 }
   
   .menu {
-    background-color: black;
+    background-color: white;
     font-family: 'Press Start 2P', cursive;
     position:fixed;
     width: 100vw;
     top: 0;
+    z-index: 1;
+  }
+
+  .menu a {
+    display: block;
+    transition: background-color 1s, color 0.5s;
+  }
+
+  .menu a:hover {
+    background-color: black;
+    color: white;
   }
   
-  a {
+  a {a
     color: black;
     text-decoration: none;
   }
@@ -61,14 +71,28 @@ header {
     text-decoration: underline;
   }
   
+  .titulo {
+    transform: scale(0.2);
+    opacity: 0;
+
+    animation: linear 3s animacaoTitulo forwards;
+  }
+
+  @keyframes animacaoTitulo {
+   100% {
+    transform: scale(1);
+    opacity: 1;
+   }
+  }
+
   .site-subtitle,
   .site-title{
-    color: white;
+    color: pink;
     text-align: center;
   }
 
   .site-title{
-   font-size: 2em;
+   font-size: 3em;
    font-family: 'Press Start 2P', cursive;
   }
 
@@ -97,14 +121,15 @@ header {
 
   .Hobbies h2 {
     font-family: 'Press Start 2P', cursive;
-    color: white;
+    color: black;
     margin-bottom:2em;
     text-align: center;
   }
 
   section.Hobbies {
-    background-color: pink;
+    background-color: white;
     padding: 2em;
+    min-height: 100vh;
 }
 
   .Hobbies .grid {
@@ -114,7 +139,7 @@ header {
 
   .Hobbies figure{
     font-family: 'Press Start 2P', cursive;
-    color: white;
+    color: black;
     margin-bottom: 1em;
     text-align: center;
     font-size: 1em;
@@ -122,7 +147,41 @@ header {
 
   .img-portfolio {
     height: 200px;
-    width: 300px;
+    width: 400px;
     object-fit: cover;
+    object-position: left bottom;
+    transition: transform 500ms;
   }
-  
+
+  .img-portfolio:hover {
+    transform: scale(1.1);
+  }
+
+  .Contato h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-bottom:2em;
+    text-align: center;
+  }
+
+  section.Contato {
+    background-color: black;
+    padding: 2em;
+}
+  .Contato .icons {
+    text-align: center;
+  }
+
+  .Contato a {
+    color: white;
+    font-size: 3em;
+  }
+
+  .Contato a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px whitesmoke;
+  }
+
+
+
+
