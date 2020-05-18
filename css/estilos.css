@@ -177,12 +177,12 @@ header {
    gap: 2em;
   }
 
-  .Hobbies figure{
+   .Hobbies figure{
     font-family: 'Press Start 2P', cursive;
     color: white;
     margin-bottom: 1em;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 0.8em;
   }
 
   .img-portfolio {
@@ -192,7 +192,7 @@ header {
   }
 
   .img-portfolio:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 
   .Contato h2 {
