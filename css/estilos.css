@@ -61,7 +61,7 @@ header {
     color: white;
   }
   
-  a {a
+  a {
     color: black;
     text-decoration: none;
   }
@@ -150,6 +150,15 @@ header {
     text-align: justify;
   }
 
+  .Sobre .avatar {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .Sobre .avatar img {
+    border-radius: 50%;
+  }
+  
   .Hobbies h2 {
     font-family: 'Press Start 2P', cursive;
     color: white;
@@ -179,13 +188,11 @@ header {
   .img-portfolio {
     height: 200px;
     width: 300px;
-    object-fit: cover;
-    object-position: left bottom;
     transition: transform 500ms;
   }
 
   .img-portfolio:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
   }
 
   .Contato h2 {
