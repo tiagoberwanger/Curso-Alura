@@ -1,2 +1,2 @@
 # imersaocss
-Curso de ImersãoCSS, aplicando conhecimentos de HTML e CSS.
+Site criado com conhecimentos de HTML e CSS.
